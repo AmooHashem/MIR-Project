@@ -1,6 +1,9 @@
 import './style.css';
 import React from "react";
 import Header from './Header'
+import ImansCard from './Iman_Card'
+import ErfansCard from './Erfan_Card'
+import AlirezasCard from './Alireza_Card'
 
 
 export default function Iman() {
@@ -9,6 +12,8 @@ export default function Iman() {
     // html here
     <div className="body">
       <Header />
+      <AlirezasCard />
+      {/*
       <div className="card">
         <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.1/css/all.css" />
         <div className="flip-box">
@@ -32,7 +37,11 @@ export default function Iman() {
             <a href="" target="_blank"><i className="lin fab fa-google" aria-hidden="true"></i></a>
           </div>
         </div>
-      </div><div className="card">
+      </div>
+       */}
+      <ErfansCard />
+      {/*
+  <div className="card">
         <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.1/css/all.css" />
         <div className="flip-box">
           <div className="flip-box-inner">
@@ -55,7 +64,11 @@ export default function Iman() {
             <a href="" target="_blank"><i className="lin fab fa-google" aria-hidden="true"></i></a>
           </div>
         </div>
-      </div><div className="card">
+      </div>
+    */}
+      <ImansCard id="imans-card"/>
+      {/*
+      <div className="card">
         <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.1/css/all.css" />
         <div className="flip-box">
           <div className="flip-box-inner">
@@ -79,6 +92,7 @@ export default function Iman() {
           </div>
         </div>
       </div>
+  */}
     </div>
 
 
